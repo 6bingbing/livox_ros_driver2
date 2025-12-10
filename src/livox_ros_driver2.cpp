@@ -37,6 +37,7 @@
 using namespace livox_ros;
 
 #ifdef BUILDING_ROS1
+//
 int main(int argc, char **argv) {
   /** Ros related */
   if (ros::console::set_logger_level(ROSCONSOLE_DEFAULT_NAME, ros::console::levels::Debug)) {
